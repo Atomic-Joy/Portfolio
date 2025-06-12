@@ -21,7 +21,7 @@ const About = () => (
           <p className="about-text">
             I am a passionate developer with a strong interest in clean code, security, and
             elegant user experiences. I enjoy building scalable systems, solving problems,
-            and continuously learning new tech.
+            and continuously learning new technologies.
           </p>
         </Reveal>
 
@@ -51,33 +51,9 @@ const About = () => (
             <div className="info-card">
               <FaProjectDiagram size={24} className="card-icon" />
               <h3>Projects</h3>
-              <p>5+ completed projects including</p>
-              <ul>
-                <li>Android Application</li>
-                <li>Cyber Security Projects</li>
-              </ul>
+              <p>8+ completed projects including web apps and utilities</p>
             </div>
           </Reveal>
-
-          {/* <Reveal delay={0.8}>
-            <div className="tools-section">
-              <p className="tools-label">Tools I use</p>
-              <div className="tools-grid">
-                <div className="glass-icon"><img src="/assets/icons/unreal.svg" alt="Unreal" /></div>
-                <div className="glass-icon"><img src="/assets/icons/unity.svg" alt="Unity" /></div>
-                <div className="glass-icon"><img src="/assets/icons/vscode.svg" alt="VSCode" /></div>
-                <div className="glass-icon"><img src="/assets/icons/git.svg" alt="Git" /></div>
-                <div className="glass-icon"><img src="/assets/icons/mongo.svg" alt="MongoDB" /></div>
-                <div className="glass-icon"><img src="/assets/icons/blender.svg" alt="Blender" /></div>
-                <div className="glass-icon"><img src="/assets/icons/postman.svg" alt="Postman" /></div>
-                <div className="glass-icon"><img src="/assets/icons/mysql.svg" alt="MySQL" /></div>
-                <div className="glass-icon"><img src="/assets/icons/figma.svg" alt="Figma" /></div>
-                <div className="glass-icon"><img src="/assets/icons/photoshop.svg" alt="Photoshop" /></div>
-              </div>
-            </div>
-          </Reveal> */}
-
-
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import './styles/App.css';
 
+
 const App = () => (
   <>
     <Navbar />
