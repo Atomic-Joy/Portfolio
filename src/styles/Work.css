@@ -1,0 +1,27 @@
+.work {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.work h2 {
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.work-card {
+  height: 200px;
+  background-color: #9b4d1e;
+  border-radius: 15px;
+}
+
+.show-more {
+  margin-top: 30px;
+}

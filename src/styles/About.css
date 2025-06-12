@@ -1,0 +1,159 @@
+.about-section {
+  background-color: transparent;
+  padding: 5rem 2rem 4rem;
+  color: #fffaf2;
+  padding-top: 0.8rem;
+}
+
+.section-intro {
+  text-align: center;
+  font-size: 1rem;
+  color: #9b4d1e;
+  margin-bottom: 0.5rem;
+}
+
+.about-section h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #9b4d1e;
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -40px; /* move section up slightly */
+}
+
+.about-img {
+  width: 300px;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.about-info {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-text {
+  font-family: 'Georgia', serif;
+  /* font-style: italic; */
+  font-size: 1.2rem;
+  line-height: 1.7;
+  max-width: 640px;
+  transition: color 0.3s ease;
+  color: #1a1a1a;
+}
+
+body.dark-mode .about-text {
+  color: #fffaf2;
+}
+
+.about-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+}
+
+.about-cards {
+  align-items: stretch;
+}
+
+.info-card {
+  flex: 1 1 280px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #9b4d1e;
+  transition: background 0.3s ease, color 0.3s ease;
+  background-color: #fffaf2;
+  color: #1a1a1a;
+}
+
+
+body.dark-mode .info-card {
+  background-color: #1e1e1e;
+  color: #fffaf2;
+}
+
+.info-card h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: #9b4d1e;
+}
+
+.card-icon {
+  color: #9b4d1e;
+  margin-bottom: 0.5rem;
+}
+
+.info-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.tools-section {
+  margin-top: 2rem;
+}
+
+.tools-label {
+  font-family: 'Georgia', serif;
+  /* font-style: italic; */
+  color: #9b4d1e;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.glass-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.glass-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.glass-icon:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .glass-icon {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .glass-icon:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
