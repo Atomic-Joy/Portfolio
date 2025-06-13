@@ -37,14 +37,6 @@ body.dark-mode a {
   color: #f0f0f0;
 }
 
-body.dark-mode .gooey-menu li {
-  background-color: #444;
-}
-
-body.dark-mode .gooey-menu li:hover {
-  background-color: #222;
-}
-
 @keyframes scroll {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
