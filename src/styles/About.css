@@ -24,10 +24,10 @@
 .about-content {
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 3.2rem;
   justify-content: center;
   align-items: flex-start;
-  margin-top: -40px;
+  margin-top: 20px;
 }
 
 .about-img {
@@ -42,7 +42,7 @@
   min-width: 320px;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .about-text {

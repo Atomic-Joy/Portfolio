@@ -1,0 +1,66 @@
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.tools-section-container {
+  position: relative;
+  overflow-x: hidden;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.tools-gradient-left,
+.tools-gradient-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 8rem;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.tools-gradient-left {
+  left: 0;
+  background: linear-gradient(to right, var(--background), transparent);
+}
+
+.tools-gradient-right {
+  right: 0;
+  background: linear-gradient(to left, var(--background), transparent);
+}
+
+.tools-scroll-track {
+  display: flex;
+  gap: 3rem;
+  width: max-content;
+  animation: scroll 60s linear infinite;
+}
+
+.tools-scroll-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.tools-icon {
+  height: 28px;
+  width: auto;
+  opacity: 0.6;
+  transition: transform 0.3s ease;
+}
+
+.tools-scroll-item:hover .tools-icon {
+  transform: scale(1.1);
+}
+
+.tools-label {
+  color: var(--white-icon);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
