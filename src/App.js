@@ -5,6 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import ToolsSection from './components/ToolsSection';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 import './styles/App.css';
 
 const App = () => (
@@ -16,6 +17,7 @@ const App = () => (
       <ToolsSection />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   </>
 );
