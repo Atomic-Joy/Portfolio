@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Hero.css';
 import Reveal from './Reveal';
-import ThemedButton from './ThemedButton';
+import ThemedButton from '../animations/ThemedButton/ThemedButton';
 import { FaLinkedin, FaGithub, FaDiscord, FaDownload } from 'react-icons/fa';
 
 const Hero = () => (

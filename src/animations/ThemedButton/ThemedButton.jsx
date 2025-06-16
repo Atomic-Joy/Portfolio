@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/ThemedButton.module.css';
+import styles from './ThemedButton.module.css';
 
 const ThemedButton = ({ label, onClick, href, download = false }) => {
   if (href) {

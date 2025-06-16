@@ -8,6 +8,7 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^7.6.12",
+    "gsap": "^3.13.0",
     "lineicons-react": "^2.0.0",
     "react": "^18.3.1",
     "react-bits": "^1.0.5",

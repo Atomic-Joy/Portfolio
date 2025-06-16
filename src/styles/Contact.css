@@ -1,36 +1,99 @@
-.contact {
-  padding: 60px 20px;
-  text-align: center;
+/* Container */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 4rem 1rem;
+  font-family: 'Georgia', serif;
+  background: var(--background);
+  color: var(--text);
 }
 
-.contact h2 {
+/* Left Column */
+.contact-left {
+  flex: 1 1 300px;
+}
+
+.subheading {
   font-style: italic;
-  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--sec);
 }
 
-.contact p {
-  margin-top: 10px;
-  color: #f4f1e8;
+.heading {
+  font-size: 3rem;
+  line-height: 1.1;
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 1rem;
+  margin-right: 18rem;
 }
 
-form {
-  max-width: 600px;
-  margin: 30px auto 0;
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  color: var(--text-light);
+}
+
+.glitch-wrapper {
+  width: 100%;
+  height: 150px;
+  margin-top: 1rem;
+  border: 2px solid var(--dark-text);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Right Column */
+.contact-right {
+  flex: 1 1 300px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  align-items: center;
+  gap: 1rem;
 }
 
-input, textarea {
-  padding: 12px;
-  border: none;
-  border-radius: 15px;
-  background-color: #9b4d1e;
-  color: white;
+.input-field,
+.textarea {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 0.8rem 1rem;
+  border-radius: 1.5rem;
+  border: 1px solid;
+  border-color: #9b4d1e;
   font-size: 1rem;
+  background: var(--input-background);
+  color: var(--text);
 }
 
-textarea {
-  min-height: 150px;
-  resize: vertical;
+.input-field {
+  border-radius: 0.8rem;
+}
+
+.textarea {
+  border-radius: 1.1rem;
+  height: 280px;
+  resize: none;
+}
+
+.input-field::placeholder,
+.textarea::placeholder {
+  color: var(--text-light);
+}
+
+.textarea {
+  height: 260px;
+  resize: none;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+  }
+  .contact-left, .contact-right {
+    flex: 1 1 100%;
+  }
 }
