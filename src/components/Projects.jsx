@@ -4,22 +4,22 @@ import ScrollVelocity from '../animations/ScrollVelocity/ScrollVelocity';
 
 const projects = [
   {
-    title: "MoviesForDevs",
+    title: "",
     imageSrc: "/images/moviesfordevs.jpg",
-    repoLink: "https://github.com/gothsec/MoviesForDevs",
-    previewLink: "https://movies-for-devs.vercel.app",
+    repoLink: "",
+    previewLink: "",
   },
   {
-    title: "StockIn",
+    title: "",
     imageSrc: "/images/stockin.jpg",
-    repoLink: "https://github.com/gothsec/stockin-demo",
-    previewLink: "https://stockin-demo.vercel.app",
+    repoLink: "",
+    previewLink: "",
   },
   {
-    title: "Svgl.app",
+    title: "",
     imageSrc: "/images/svgl.png",
-    repoLink: "https://github.com/pheralb/svgl",
-    previewLink: "https://svgl.app",
+    repoLink: "",
+    previewLink: "",
   },
   {
     title: "Portfolio Website",
@@ -95,7 +95,7 @@ const Projects = () => (
       </div>
 
       <a
-        href="https://github.com/Gothsec?tab=repositories"
+        href="https://github.com/Atomic-Joy?tab=repositories"
         target="_blank"
         rel="noopener noreferrer"
         className="projects-more-btn"
