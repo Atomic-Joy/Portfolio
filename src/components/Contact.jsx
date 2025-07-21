@@ -5,7 +5,7 @@ import LetterGlitch from '../animations/LetterGlitch/LetterGlitch';
 import '../styles/Contact.css';
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("Paste yout Code");
+  const [state, handleSubmit] = useForm("Paste your Code");
 
   if (state.succeeded) {
     return (
