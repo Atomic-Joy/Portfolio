@@ -4,12 +4,9 @@ import ThemedButton from '../animations/ThemedButton/ThemedButton';
 import LetterGlitch from '../animations/LetterGlitch/LetterGlitch';
 import '../styles/Contact.css';
 
-// A new component to handle the form logic
 function ContactForm() {
-  // Replace "your_unique_id" with the ID from your Formspree form endpoint
-  const [state, handleSubmit] = useForm("your_unique_id"); // <-- PASTE YOUR FORM ID HERE
+  const [state, handleSubmit] = useForm("Paste yout Code");
 
-  // Show a success message if the form was submitted correctly
   if (state.succeeded) {
     return (
       <div className="contact-success">
@@ -19,7 +16,6 @@ function ContactForm() {
     );
   }
 
-  // Render the form
   return (
     <form onSubmit={handleSubmit} className="contact-right">
       <input
@@ -76,7 +72,6 @@ function ContactForm() {
   );
 }
 
-// Your main Contact component now renders the ContactForm
 const Contact = () => (
   <section id="contact" className="contact-section">
     <div className="contact-left">
@@ -97,7 +92,7 @@ const Contact = () => (
       </div>
     </div>
 
-    {/* The form logic is now encapsulated in this component */}
+    {}
     <ContactForm />
   </section>
 );
