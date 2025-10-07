@@ -41,13 +41,13 @@ const Hero = () => (
 
     <Reveal delay={0.6}>
       <div className="socials">
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/joymondal22/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={30} />
         </a>
-        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Atomic-Joy" target="_blank" rel="noopener noreferrer">
           <FaGithub size={30} />
         </a>
-        <a href="https://discord.com/users/yourid" target="_blank" rel="noopener noreferrer">
+        <a href="https://discord.com/users/1417985311052529727" target="_blank" rel="noopener noreferrer">
           <FaDiscord size={30} />
         </a>
       </div>
@@ -56,3 +56,4 @@ const Hero = () => (
 );
 
 export default Hero;
+
