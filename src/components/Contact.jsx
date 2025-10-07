@@ -5,7 +5,7 @@ import LetterGlitch from '../animations/LetterGlitch/LetterGlitch';
 import '../styles/Contact.css';
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("Paste your Code");
+  const [state, handleSubmit] = useForm("mdkdayjz");
 
   if (state.succeeded) {
     return (
@@ -98,3 +98,4 @@ const Contact = () => (
 );
 
 export default Contact;
+
