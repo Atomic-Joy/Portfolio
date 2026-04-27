@@ -1,7 +1,6 @@
 .footer {
   width: 100%;
   padding: 3rem 1rem;
-  /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
   color: var(--white-icon);
   background-color: var(--background);
 }

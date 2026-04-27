@@ -50,7 +50,6 @@ function Footer() {
           ))}
         </div>
 
-        {/* Swapped: Spotify comes first now */}
         <div className="footer-spotify">
           <iframe
             src="https://open.spotify.com/embed/playlist/183vrXYDYSkOstvyuFSo0B?utm_source=generator&theme=0&locale=en_US"
@@ -61,7 +60,6 @@ function Footer() {
           ></iframe>
         </div>
 
-        {/* Tech Stack below Spotify now */}
         <div className="footer-tech">
           {techStack.map((tech) => (
             <div key={tech.name} className="tech-item">

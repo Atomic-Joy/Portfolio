@@ -68,7 +68,7 @@ body.dark-mode .about-text {
 
 
 .info-card {
-  width: 200px; /* Fixed width for uniformity */
+  width: 200px;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid #9b4d1e;

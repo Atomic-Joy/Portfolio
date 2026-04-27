@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/ToolsSection.css';
 
 const technologies = [
-  'astro', 'vue', 'react', 'typeScript', 'tailwindcss',
+  'react', 'typeScript', 'tailwindcss',
   'next', 'nodejs', 'HTML5', 'CSS3', 'javaScript',
-  'git', 'supabase', 'mysql', 'bash',
+  'git', 'mysql', 'bash',
 ];
 
 const ToolsSection = () => {
