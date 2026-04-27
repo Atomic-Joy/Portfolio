@@ -5,25 +5,25 @@ import ScrollVelocity from '../animations/ScrollVelocity/ScrollVelocity';
 const projects = [
   {
     title: "URL-Phishing-Detection-Model",
-    imageSrc: "/images/Phishing.png",
+    imageSrc: "./images/Phishing.png",
     repoLink: "https://github.com/Atomic-Joy/URL-Phishing-Detection-Model",
     previewLink: "https://github.com/Atomic-Joy/URL-Phishing-Detection-Model",
   },
   {
     title: "Toxicity-Prediction-Model",
-    imageSrc: "/images/Toxicity.png",
+    imageSrc: "./images/Toxicity.png",
     repoLink: "https://github.com/Atomic-Joy/Toxicity-Prediction",
     previewLink: "https://github.com/Atomic-Joy/Toxicity-Prediction",
   },
   {
     title: "Store-Rating (Webapp)",
-    imageSrc: "/images/StoreRating.png",
+    imageSrc: "./images/StoreRating.png",
     repoLink: "https://github.com/Atomic-Joy/Store-Rating",
     previewLink: "https://github.com/Atomic-Joy/Store-Rating",
   },
   {
     title: "Portfolio Website",
-    imageSrc: "/images/Portfolio.png",
+    imageSrc: "./images/Portfolio.png",
     repoLink: "https://github.com/Atomic-Joy/Portfolio",
     previewLink: "https://portfolio-atomicjoy.vercel.app",
     // status: "On Development",
