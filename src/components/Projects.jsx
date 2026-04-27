@@ -34,7 +34,7 @@ const Projects = () => (
   <section id="projects" className="projects-section">
     <div className="projects-full-width-marquee">
       <ScrollVelocity
-        texts={['My Projects ', '']}
+        texts={[' Projects ', '']}
         velocity={100}
         className="custom-scroll-text"
       />
