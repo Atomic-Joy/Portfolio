@@ -1,13 +1,15 @@
 .projects-section {
-  padding: 3rem 1rem;
+  padding: 3rem 0;
   border-top: 1px solid var(--white-icon);
   background-color: var(--background);
   color: var(--white);
+  overflow-x: hidden;
 }
 
 .projects-container {
   max-width: 75rem;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .projects-subtitle {
