@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Joy Mondal - Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This project serves as a central hub to showcase my skills, projects, and experiences as a developer. Built with modern web technologies, it features a clean, responsive design with smooth animations.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+You can view the live site here: [https://portfolio-atomicjoy.vercel.app](https://portfolio-atomicjoy.vercel.app)
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Dynamic Hero Section**: Features custom letter-glitch animations and a visually striking introduction.
+- **About Me**: A summary of my background, skills, and current focus.
+- **Tools & Technologies**: A visual showcase of the tech stack and tools I use on a daily basis.
+- **Projects Showcase**: A dedicated section for my projects, complete with custom image layouts, live preview links, and GitHub repository links, animated with a smooth scrolling marquee.
+- **Contact Form**: A functional contact section integrated with Formspree, allowing direct messages from the site.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Built With
 
-### `npm test`
+This project was built using the following technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: [React 18](https://reactjs.org/)
+- **Styling**: Custom CSS and utility classes (via TailwindCSS)
+- **Animations**:
+  - [Framer Motion](https://www.framer.com/motion/) for element transitions
+  - [GSAP](https://greensock.com/gsap/) for advanced sequencing
+  - [React Scroll Parallax](https://react-scroll-parallax.esm.js.org/) & React Bits for dynamic scroll effects
+- **Forms**: [@formspree/react](https://formspree.io/) for handling contact submissions
+- **Icons**: React Icons (`react-icons`) and Lineicons (`lineicons-react`)
+- **Deployment**: [Vercel](https://vercel.com/)
 
-### `npm run build`
+## 💻 Getting Started (Local Development)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get a local copy up and running, follow these simple steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Atomic-Joy/Portfolio.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd portfolio
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application will be running at [http://localhost:3000](http://localhost:3000). The page will reload automatically if you make edits.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Build for Production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To create an optimized production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will bundle React in production mode and optimize the build for the best performance. The build artifacts will be stored in the `build/` directory.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📫 Contact
 
-### Code Splitting
+- **GitHub**: [@Atomic-Joy](https://github.com/Atomic-Joy)
+- **Email**: joymondal2022@vitbhopal.ac.in
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to reach out if you want to collaborate or just say hi!
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Copyright © 2026 Joy Mondal. All rights reserved.*
