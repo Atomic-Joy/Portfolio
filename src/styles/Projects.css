@@ -133,3 +133,18 @@
   background: var(--sec);
   transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 2rem 0;
+  }
+
+  .projects-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .project-name {
+    font-size: 1.25rem;
+  }
+}

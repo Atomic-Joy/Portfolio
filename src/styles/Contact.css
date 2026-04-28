@@ -39,7 +39,7 @@
 
 .input-field,
 .textarea {
-  width: 99%;
+  width: 100%;
   box-sizing: border-box;
   padding: 0.8rem 1rem;
   border-radius: 1.2rem;
@@ -98,5 +98,15 @@
 
   .glitch-wrapper {
     margin: 1rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    gap: 2rem;
+  }
+  
+  .glitch-wrapper {
+    height: 120px;
   }
 }
